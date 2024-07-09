@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+</head>
+<link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playball&family=Sofia+Sans+Semi+Condensed:wght@500&family=Ubuntu:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+<style>
+    /*Css reset*/
+    body {
+        font-family: 'Playball', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('woman.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: black;
+    }
+
+    .left {
+        /*border: 2px solid rgb(253, 48, 48);*/
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+
+    .left img {
+        width: 110px;
+        height: 50px;
+
+    }
+
+    .left div {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 15px;
+    }
+
+    .mid {
+        /*border: 2px solid rgb(104, 207, 44);*/
+        display: block;
+        margin: 20px auto;
+        width: 600px;
+    }
+
+    .right {
+        /*border: 2px solid rgb(83, 46, 218);*/
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: #1d1b1b;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 35px 5px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(86, 131, 19);
+    }
+
+    .btn {
+        font-family: 'Playball', cursive;
+        margin: 0px 9px;
+        padding: 5px 14px;
+        border: 2px solid grey;
+        border-radius: 15px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(235, 153, 53);
+        color: whitesmoke;
+    }
+
+    .container {
+        border: 2px solid black;
+        margin: 100px 80px;
+        padding: 75px;
+        width: 40%;
+        border-radius: 30px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 22px;
+        font-family: 'Playball', cursive;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 400px;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="waterfall.jpg" alt="No error">
+            <div>Natural Resort</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Resort view</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Natural Resort of Agra now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Contact No.">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email-id">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

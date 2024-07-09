@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background-image: linear-gradient(to left,white,green);
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 1px;
+  font-size: 30px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 40px;
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+
+.div {
+    border-color: black;
+    height: 180px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.nav-bar{
+  background: burlywood;
+  margin-left: 10px; 
+}
+.nav-bar a{
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  display: inline-flex;
+  float: center;
+}
+.nav-bar a:hover{
+  background: wheat;
+  color: red;
+}
+.search-box {
+  display: inline;
+  float: right;
+  padding: 10px;
+  text-size-adjust: 20px;
+
+}
+</style>
+</head>
+<body>
+  <div class="nav-bar">
+        <a href="#"><b>HOME</b></a>
+        <a href="#"><b>ABOUT</b></a>
+        <a href="#"><b>CONTACT US</b></a>
+        <a href="#"><b>LOGIN</b></a>
+  
+<form class="search-box">
+  <input type="text" placeholder="Search..">
+  <button>Search</button>
+</form>
+</div>
+<br>
+<div class="header">
+  <h2>IOT IN AGRICULTURE</h2>
+</div>
+
+<div class="row" >
+  <div class="leftcolumn">
+    <div class="card">
+      <h2><center><B>INTRODUCTION</B></center></h2>
+      <p>The agriculture industry presents a huge number of opportunities for IoT technology. It would give farmers significantly more control over their livestock and crops, allowing them to make more informed decisions as well as respond more efficiently to setbacks and challenges. Farmers would be able to collect data using smart sensors to check weather conditions, soil quality, livestock health, moisture levels in hay production, etc. “Insider Intelligence projects there to be nearly 12 million agricultural sensors installed globally by 2023. Additionally, tech giant IBM estimates that the average farm can generate half a million data points per day – helping farmers to improve yields and increase profits.” (Meola) You could quickly find a break in the electric fencing or automatically test milk for antibiotics/hormones, etc – it would be amazing to have all of that data arrive on your phone. By having such tight control over production, farmers would also be able to better manage costs and reduce waste, thus yielding a higher revenue. </p>
+      <div>
+      <img src="iot-in-agriculture.jpg" height= 400px width= 800px>
+      </div>
+      <p>Fortunately, the Internet of Things (IoT) offers a number of smart solutions that can help address these challenges.
+
+    <p>Smart agriculture is already making a big difference in the sector with its ability to optimize resources, reduce wastage, and increase farm productivity. Here are some examples of how the IoT is being used in agriculture.</p>
+    </p>
+    </div>
+    <div class="div">
+    <iframe src="SIS-part.html" name="iframe1" height="200%" width="100%"></iframe>
+    </div>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br>
+  </div>
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>How is IoT used in agriculture?</h2>
+      <p>IoT in agriculture provides businesses with the opportunity to gain insights into businesses that were previously unavailable. Using this information, they can reduce costs, increase revenue, and innovate in ways never thought possible before. It also empowers them by giving them real-time data on product conditions and speeding up decision-making.</p>
+    </div>
+    <div class="card">
+      <h2>What are the benefits of IoT in agriculture?</h2>
+      <p>IoT in agriculture allows you to track and automate your farm. This helps to improve labor productivity and save money for operations such as irrigation, fertilization, and harvesting.</p>
+    </div>
+    <div class="card">
+        <h2>What is IoT-based smart agriculture?</h2>
+        <p>IoT-based smart agriculture allows farmers to constantly monitor the field and livestock conditions by the use of IoT sensors, software, and data and enables them to take informed decisions regarding the same.</p>
+      </div>
+    
+  </div>
+</div>
+
+<div class="footer">
+    <h4>THANKS FOR VISITING MY BLOG</h4>
+</div>
+
+</body>
+</html>
